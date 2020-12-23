@@ -2,7 +2,6 @@
 /**
  * Scrambler3.
  *
- * @author Dennis White
  * @version 1.0
  */
 public class Scrambler3 implements ScramblerInterface
