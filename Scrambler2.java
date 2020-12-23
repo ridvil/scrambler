@@ -8,7 +8,7 @@ public class Scrambler2 extends IndexKey implements ScramblerInterface
 {
 
     /**
-     * Constructor for objects of class TrithemiusCipher
+     * Constructor for objects of class Scrambler2
      */
     public Scrambler2()
     {
