@@ -3,7 +3,7 @@
  *
  * @version 1.0
  */
-public class Scrambler1 extends IndexKey
+public class Scrambler1 extends IndexKey implements ScramblerInterface
 {   
     public String encrypt(String plainText) 
     {
@@ -43,7 +43,7 @@ public class Scrambler1 extends IndexKey
         encrypt = encrypt.toUpperCase();
         return encrypt; 
     }
-     public String decrypt(String plainText) 
+     public String decrypt(String encryptedText) 
     {
         String dencrypt = "";
         char ch = 'a';
